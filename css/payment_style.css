@@ -1,0 +1,75 @@
+/*------Payment----Style---- */
+.payment{width:500px;margin:0 auto;text-align:center;border:1px solid #ddd;min-height:200px;padding:50px;}
+.payment h2{padding-bottom:10px;margin-bottom:40px;border-bottom:2px solid #ddd;}
+.payment a{background: #ff0000;color: #fff;font-size: 25px;padding: 5px 12px;border-radius: 5px;}
+.back{}
+.back a{width:160px;margin:5px auto 0;display:block;text-align:center;padding:7px 0;background:#555;color:#fff;border-radius:3px;border:1px solid #333;font-size:25px;}
+.back a:hover{background:#000;color:#ddd;}
+
+/*------Payment----Style- End--- */
+
+/*------404----Style---- */
+.notfound{}
+.notfound h2{font-size: 100px; line-height: 130px;text-align:center;}
+.notfound h2 span{display: block;font-size:170px;color:red;}
+
+/*------404----Style--End-- */
+/*------Profile----Style---- */
+.tbl_profile {
+  border: 1px solid #fff;
+  margin-bottom: 12px;
+  width: 100%;
+}
+.tbl_profile th {
+  background: #666 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 8px;
+  text-align: center;
+}
+.tbl_profile td{padding:10px;text-align:center;}
+
+table.tbl_profile tr:nth-child(2n+1){background:#fff;height:30px;}
+table.tbl_profile tr:nth-child(2n){background:#fdf0f1;height:30px;}
+table.tbl_profile input[type="number"] {
+  border: 1px solid #ddd;
+  padding: 2px;
+  width: 60px;
+}
+table.tbl_profile input[type="submit"] {
+  background: #333 none repeat scroll 0 0;
+  border: 1px solid #000;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 1px 5px;
+}
+table.tbl_profile a {
+  color: #fe5800;
+  font-weight: bold;
+  text-decoration: none;
+}
+table.tbl_profile a:hover{color: #000;}
+table.tbl_profile img {
+  height: 20px;
+  width: 30px;
+}
+.tbl_profile{width:500px;margin:0 auto;border:2px solid #ddd;}
+.tbl_profile tr td{text-align: justify;}
+
+/*------Profile----Style--End-- */
+
+/*---PaymentOffline---style--- */
+.division{width:50%;float:left;}
+.tbltwo{float:right;text-align:left;width:60%;border:2px solid #ddd;margin-right:14px;margin-top:12px;}
+.tbltwo tr td{text-align: justify;padding:5px 10px;}
+.tblone{margin: 0 auto;width: 96%;}
+.ordernow{}
+.ordernow a{width:200px;margin:20px auto 10px;text-align:center;padding:5px;font-size:30px;display:block;border:1px solid #333;background:#ff0000;border-radius:3px;color:#fff;}
+
+/*==== success.php----pages----*/
+
+.success_msg{width:500px;margin:0 auto;text-align:center;border:1px solid #ddd;min-height:200px;padding:20px;}
+.success_msg h2{padding-bottom:10px;margin-bottom:20px;border-bottom:2px solid #ddd;}
+.success_msg p{line-height: 25px;}
